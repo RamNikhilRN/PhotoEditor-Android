@@ -1,0 +1,169 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/banner"
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentTop="true"
+        android:background="#333333">
+
+        <ImageView
+            android:id="@+id/back_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:layout_gravity="left|center_vertical"
+            android:layout_margin="10dp"
+            android:layout_marginLeft="8dp"
+            android:src="@drawable/back_arrow" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="16dp"
+            android:layout_toRightOf="@id/back_btn"
+            android:gravity="center"
+            android:text="@string/ram_github_io_editor_library_name"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+        <ViewFlipper
+            android:id="@+id/banner_flipper"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="right"
+            android:layout_marginRight="8dp"
+            android:flipInterval="1000"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/save_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:text="@string/ram_github_io_editor_done"
+                android:textAllCaps="true"
+                android:textColor="#ffffff"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/apply"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:text="@string/ram_github_io_editor_apply"
+                android:textAllCaps="true"
+                android:textColor="#ffffff"
+                android:textSize="14sp" />
+        </ViewFlipper>
+    </RelativeLayout>
+
+    <ram.github.io.editor.editimage.view.CustomViewPager
+        android:id="@+id/bottom_gallery"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/bottom_banner_height"
+        android:layout_alignParentBottom="true"
+        android:background="@color/main_backgroud"
+        android:overScrollMode="never" />
+
+    <FrameLayout
+        android:id="@+id/work_space"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/bottom_gallery"
+        android:layout_below="@id/banner"
+        android:background="#000000">
+
+        <ram.github.io.editor.editimage.view.imagezoom.ImageViewTouch
+            android:id="@+id/main_image"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center" />
+
+        <ram.github.io.editor.editimage.view.RotateImageView
+            android:id="@+id/rotate_panel"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:visibility="gone" />
+
+        <ram.github.io.editor.editimage.layout.ZoomLayout
+            android:id="@+id/text_sticker_panel_frame"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ram.github.io.editor.editimage.view.TextStickerView
+                android:id="@+id/text_sticker_panel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:visibility="gone"/>
+
+        </ram.github.io.editor.editimage.layout.ZoomLayout>
+
+        <ram.github.io.editor.editimage.view.CustomPaintView
+            android:id="@+id/custom_paint_view"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:visibility="gone" />
+
+        <ram.github.io.editor.editimage.view.BrightnessView
+            android:id="@+id/brightness_panel"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:visibility="gone" />
+
+        <ram.github.io.editor.editimage.view.SaturationView
+            android:id="@+id/contrast_panel"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:visibility="gone" />
+
+        <ram.github.io.editor.editimage.view.StickerView
+            android:id="@+id/sticker_panel"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:visibility="gone" />
+
+        <com.theartofdev.edmodo.cropper.CropImageView
+            android:id="@+id/crop_panel"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:visibility="gone" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/redo_undo_panel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/bottom_gallery"
+        android:layout_alignParentRight="true"
+        android:orientation="horizontal"
+        android:paddingBottom="16dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="10dp">
+
+        <ImageView
+            android:id="@+id/undo_btn"
+            android:layout_width="40dp"
+            android:layout_height="35dp"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/ic_undo_black_24dp" />
+
+        <ImageView
+            android:id="@+id/redo_btn"
+            android:layout_width="40dp"
+            android:layout_height="35dp"
+            android:src="@drawable/ic_redo_black_24dp" />
+    </LinearLayout>
+
+</RelativeLayout>

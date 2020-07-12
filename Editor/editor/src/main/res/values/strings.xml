@@ -1,0 +1,109 @@
+<resources>
+    <string name="ram_github_io_editor_library_name">Photo Editor</string>
+    <string name="ram_github_io_editor_no_images">No image found</string>
+    <string name="ram_github_io_editor_images">%d images</string>
+    <string name="ram_github_io_editor_done">DONE</string>
+    <string name="ram_github_io_editor_apply">APPLY</string>
+
+    <string name="ram_github_io_editor_stickers">Stickers</string>
+    <string name="ram_github_io_editor_filter">Filters</string>
+    <string name="ram_github_io_editor_crop">Crop</string>
+    <string name="ram_github_io_editor_rotate">Rotate</string>
+    <string name="ram_github_io_editor_text">Text</string>
+    <string name="ram_github_io_editor_brush">Brush</string>
+    <string name="ram_github_io_editor_eraser">Eraser</string>
+    <string name="ram_github_io_editor_edit">Edit</string>
+    <string name="ram_github_io_editor_brightness">Brightness</string>
+    <string name="ram_github_io_editor_saturation">Saturation</string>
+    <string name="ram_github_io_editor_size">Size</string>
+    <string name="ram_github_io_editor_opacity">Opacity</string>
+
+    <string name="materialcolorpicker__errHex">Hex Code Format incorrect</string>
+    <string name="materialcolorpicker__btnSelectColor">Select</string>
+    <string name="ram_github_io_editor_saving_image">Saving…</string>
+    <string name="ram_github_io_editor_input_hint">Input Text …</string>
+
+    <string name="ram_github_io_editor_not_selected">Please choose an image for edit</string>
+    <string name="ram_github_io_editor_auto_newline">AutoNewline</string>
+    <string name="ram_github_io_editor_save_error">Save error!</string>
+    <string name="ram_github_io_editor_load_error">Failed to load the image!</string>
+    <string name="ram_github_io_editor_loading">Loading…</string>
+    <string name="ram_github_io_editor_pick_a_color">Pick a color</string>
+
+    <string name="ram_github_io_editor_free_size">FREE</string>
+    <string name="ram_github_io_editor_fit_image">ORIGINAL</string>
+    <string name="ram_github_io_editor_square">SQUARE</string>
+    <string name="ram_github_io_editor_ratio3_4">3:4</string>
+    <string name="ram_github_io_editor_ratio4_3">4:3</string>
+    <string name="ram_github_io_editor_ratio9_16">9:16</string>
+    <string name="ram_github_io_editor_ratio16_9">16:9</string>
+
+    <string-array name="ram_github_io_editor_filters">
+        <item>Origin</item>
+        <item>Soft</item>
+        <item>Black</item>
+        <item>Classic</item>
+        <item>Gorgeous</item>
+        <item>Retro</item>
+        <item>Grace</item>
+        <item>Film</item>
+        <item>Memory</item>
+        <item>Yogurt</item>
+        <item>Fleeting</item>
+        <item>Shine</item>
+    </string-array>
+
+    <string-array translatable="false" name="ram_github_io_editor_filter_drawable_list">
+        <item>filter_1</item>
+        <item>filter_2</item>
+        <item>filter_3</item>
+        <item>filter_4</item>
+        <item>filter_5</item>
+        <item>filter_6</item>
+        <item>filter_7</item>
+        <item>filter_8</item>
+        <item>filter_9</item>
+        <item>filter_10</item>
+        <item>filter_11</item>
+        <item>filter_12</item>
+    </string-array>
+
+    <string-array translatable="false" name="ram_github_io_editor_types">
+        <item>type1</item>
+        <item>type2</item>
+        <item>type3</item>
+        <item>type4</item>
+        <item>type5</item>
+        <item>type6</item>
+    </string-array>
+
+    <string-array name="ram_github_io_editor_type_names">
+        <item>Type 1</item>
+        <item>Type 2</item>
+        <item>Type 3</item>
+        <item>Type 4</item>
+        <item>Type 5</item>
+        <item>Type 6</item>
+    </string-array>
+
+    <integer-array translatable="false" name="ram_github_io_editor_type_count">
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+        <item>3</item>
+        <item>5</item>
+    </integer-array>
+
+    <string name="ram_github_io_editor_more">More</string>
+    <string name="ram_github_io_editor_exit_without_save">The edited image is not saved. Do you want to exit? </string>
+    <string name="ram_github_io_editor_confirm">Confirm</string>
+    <string name="ram_github_io_editor_cancel">Cancel</string>
+
+    <string name="ram_github_io_editor_beauty">Beauty</string>
+    <string name="ram_github_io_editor_smooth">Smoothness</string>
+    <string name="ram_github_io_editor_white_skin">Skin Tone</string>
+
+    <item type="id" translatable="false" name="ram_github_io_editor_TAG_STICKERS_PATH" />
+    <item type="id" translatable="false" name="ram_github_io_editor_TAG_STICKERS_COUNT" />
+</resources>

@@ -1,0 +1,28 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="image_edit_text_size">12sp</dimen>
+    <dimen name="image_edit_menu_margin">20dp</dimen>
+    <dimen name="materialcolorpicker__activity_horizontal_margin">16dp</dimen>
+    <dimen name="materialcolorpicker__activity_vertical_margin">16dp</dimen>
+    <dimen name = "bottom_banner_height">100dp</dimen>
+    <dimen name="margin_8dp">8dp</dimen>
+    <dimen name="margin_4dp">4dp</dimen>
+    <dimen name="margin_20dp">20dp</dimen>
+    <dimen name="padding_10dp">10dp</dimen>
+    <dimen name="text_size_16sp">16sp</dimen>
+    <dimen name="text_size_18sp">18sp</dimen>
+    <dimen name="text_size_40sp">40sp</dimen>
+    <dimen name="elevation_2dp">2dp</dimen>
+    <dimen name="text_sticker_size">14sp</dimen>
+    <dimen name="delete_icon_size">20dp</dimen>
+    <dimen name="rotate_icon_size">45dp</dimen>
+
+    <!--Spacing-->
+    <dimen name="spacing_xxsmall">2dp</dimen>
+    <dimen name="spacing_xsmall">4dp</dimen>
+    <dimen name="spacing_small">8dp</dimen>
+    <dimen name="spacing_medium">16dp</dimen>
+    <dimen name="spacing_large">24dp</dimen>
+    <dimen name="spacing_xlarge">32dp</dimen>
+    <dimen name="spacing_xxlarge">64dp</dimen>
+</resources>

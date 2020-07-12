@@ -1,0 +1,36 @@
+ext {
+    artifactName = 'editor'
+    artifactGroupId = 'com.github.ram'
+}
+
+ext.submitVersion = {
+    return versionName()
+}
+
+ext.artifactoryUsername = bintray_user
+ext.artifactoryPassword = bintray_key
+
+
+ext {
+    bintrayRepo = 'maven'
+    bintrayName = 'Ananas'
+
+    publishedGroupId = 'com.github.ram'
+    libraryName = 'Ananas'
+    artifact = 'editor'
+
+    libraryDescription = 'An easy to use image editor library'
+
+    siteUrl = 'https://github.com/ram/Ananas'
+    gitUrl = 'git@github.com:ram/Ananas.git'
+
+    libraryVersion = versionName()
+
+    developerId = 'ram'
+    developerName = 'Utkarsh Tiwari'
+    developerEmail = 'ram@gmail.com'
+
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
+}

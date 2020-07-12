@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.eltos:simpledialogfragment:2.2.2@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/39a6ea8336b1d5479b10a6d0c23221f2/jetified-simpledialogfragment-2.2.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/39a6ea8336b1d5479b10a6d0c23221f2/jetified-simpledialogfragment-2.2.2/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.eltos/simpledialogfragment/2.2.2/74a2c7d438fd9f43ab095a284d545db6ddbb91cb/simpledialogfragment-2.2.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.eltos/simpledialogfragment/2.2.2/218e2dac09cda7bc471239381c75c9b0074cb3ac/simpledialogfragment-2.2.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

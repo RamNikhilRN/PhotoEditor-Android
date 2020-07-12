@@ -1,0 +1,30 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/back_to_main"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="16dp"
+        android:src="@drawable/image_edit_back" />
+
+    <LinearLayout
+        android:id="@+id/add_text_btn"
+        style="@style/option_style"
+        android:layout_centerInParent="true"
+        android:gravity="center">
+
+        <ImageView
+            style="@style/icon_style"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_add_text" />
+
+        <TextView
+            style="@style/option_text_style"
+            android:text="@string/ram_github_io_editor_text" />
+
+    </LinearLayout>
+</RelativeLayout>

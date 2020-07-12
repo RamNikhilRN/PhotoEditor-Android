@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Editor</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="choose_image">Select image from gallery</string>
+    <string name="edit_image">Edit image</string>
+    <string name="save_path">save path : %s</string>
+    <string name="take_photo">Capture photo</string>
+</resources>
